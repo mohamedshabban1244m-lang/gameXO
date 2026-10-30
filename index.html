@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XO</title>
+
+    <!-- google-font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+BE+WAL+Guides&display=swap" rel="stylesheet">
+    <!-- google-font -->
+    <!-- wow css -->
+    <link rel="stylesheet" href="css/wow.min.css">
+    <!-- animate css -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <!-- fontawsome css -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- mdbootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+
+
+
+
+
+    <!-- Start Game Section -->
+
+    <header class="head-conten">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 m-auto">
+                    <div class="game-select d-flex justify-content-between align-items-center mb-3">
+                    
+                        <div class="select" data-mode="pvp">
+                            <i class="fa-solid fa-user"></i>
+                            Player vs Player
+                        </div>
+                    
+                        <div data-mode="pvc">
+                            <i class="fa-solid fa-robot"></i>
+                            Player vs Computer
+                        </div>
+                    
+                    </div>
+                    <!-- Game Box -->
+                    <div class="game">
+                        <div class="row">
+
+                            <!-- Title -->
+                            <div class="tittle col-12">
+                                <span>X O</span> GAME
+                            </div>
+
+                            <!-- Players Info -->
+                            <div class="game-info col-12">
+
+                                <div class="player active-player">
+                                    <span class="player-symbol x-symbol">X</span>
+                                    <span>PLAYER X</span>
+                                </div>
+
+                                <div class="vs">VS</div>
+
+                                <div class="player">
+                                    <span class="player-symbol o-symbol">O</span>
+                                    <span>PLAYER O</span>
+                                </div>
+
+                            </div>
+
+                            <!-- Game Squares -->
+
+                            <div class="col-4">
+                                <div class="square " id="item1" onclick="game(this.id)"></div>
+                            </div>
+                            <div class="col-4">
+                                <div class="square " id="item2" onclick="game(this.id)"></div>
+                            </div>
+                            <div class="col-4">
+                                <div class="square " id="item3" onclick="game(this.id)"></div>
+                            </div>
+
+
+                            <div class="col-4">
+                                <div class="square " id="item4" onclick="game(this.id)"></div>
+                            </div>
+                            <div class="col-4">
+                                <div class="square " id="item5" onclick="game(this.id)"></div>
+                            </div>
+                            <div class="col-4">
+                                <div class="square " id="item6" onclick="game(this.id)"></div>
+                            </div>
+
+                            <div class="col-4">
+                                <div class="square " id="item7" onclick="game(this.id)"></div>
+                            </div>
+                            <div class="col-4">
+                                <div class="square " id="item8" onclick="game(this.id)"></div>
+                            </div>
+                            <div class="col-4">
+                                <div class="square " id="item9" onclick="game(this.id)"></div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                    <!-- New Game Button -->
+                    <div class="game-footer d-flex justify-content-center align-items-center"
+                        onclick="location.reload()">
+
+                        <i class="fas fa-sync-alt"></i>
+
+                        <span>New Game</span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- wow js -->
+
+
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <!-- fontawsome js -->
+    <script src="js/all.min.js"></script>
+
+    <!-- bootsratp js -->
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- mdbootstrap js -->
+    <script src="js/mdb.min.js"></script>
+
+    <!-- main js -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
